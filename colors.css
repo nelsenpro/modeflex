@@ -1,0 +1,759 @@
+:root {
+    /* Windows 8 UI Colors */
+    --lime: #a4c400;
+    --green: #60a917;
+    --emerald: #008a00;
+    --teal: #00aba9;
+    --blue: #3e65ff;
+    --white: #fff;
+    --black: #000;
+    --cobalt: #0050ef;
+    --violet: #aa00ff;
+    --pink: #f472d0;
+    --crimson: #a20025;
+    --red: #e51400;
+    --orange: #fa6800;
+    --amber: #f0a30a;
+    --yellow: #e3c800;
+    --brown: #825a2c;
+    --olive: #6d8764;
+    --steel: #647687;
+    --mauve: #76608a;
+    --taupe: #87794e;
+    --sienna: #a0522d;
+    --magenta: #d80073;
+
+    /* Bootstrap Colors */
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-gray: #6c757d;
+    --bs-cyan: #0dcaf0;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+
+    /* Star Bootstrap Colors */
+    --sb-primary: #4e73df;
+    --sb-success: #1cc88a;
+    --sb-info: #36b9cc;
+    --sb-warning: #f6c23e;
+    --sb-danger: #e74a3b;
+    --sb-secondary: #858796;
+    --sb-light: #f8f9fc;
+    --sb-dark: #5a5c69;
+
+    /* FrameCSS Colors */
+    --f-dark: #222430;
+    --f-gray: #f2f2f2;
+    --f-light-gray: #f5f5f5;
+    --f-red: #ff3b30;
+    --f-orange: #ff9500;
+    --f-yellow: #ffcc00;
+    --f-green: #4cd964;
+    --f-blue: #17a2b8;
+    --f-cyan: #00d1d1;
+    --f-purple: #9f00a7;
+    --f-magenta: #ff0097;
+
+    /* Advanced Colors */
+    --darkblue: #5856d6;
+    --gray: #ddd;
+    --marigold: #fdac53;
+    --cerulean: #9bb7d4;
+    --rust: #b55a30;
+    --illuminating: #f5df4d;
+    --french-blue: #0072b5;
+    --green-ash: #a0daa9;
+    --burnt-coral: #e9897e;
+    --mint: #00a170;
+    --amethyst-orchid: #926aa6;
+    --raspberry-sorbet: #d2386c;
+    --inkwell: #363945;
+    --ultimate-gray: #939597;
+    --buttercream: #efe1ce;
+    --desert-mist: #e0b589;
+    --willow: #9a8b4f;
+
+    /* TikTok Colors */
+    --t-black: #000000;
+    --t-red: #FE2C55;
+    --t-white: #FFFFFF;
+    --t-turquoise: #25F4EE;
+
+    /* Google, Microsoft, Instagram, Canva */
+    --google-blue: #4285F4;
+    --google-green: #0F9D58;
+    --google-yellow: #F4B400;
+    --google-red: #DB4437;
+    --micro-red: #F25022;
+    --micro-green: #7FBA00;
+    --micro-blue: #00A4EF;
+    --micro-yellow: #FFB900;
+    --ig-purple: #833AB4;
+    --ig-orange: #F77737;
+    --canva-gray: #737373;
+    --canva-gray-2: #AAB8C2;
+    --canva-pink: #FF00BF;
+    --canva-brown: #964B00;
+    --canva-cyan: #00D1D1;
+    --canva-magenta: #FF00FF;
+    --canva-dark: #454545;
+    --canva-dark-2: #2E2E2E;
+
+    /* Neon Colors */
+    --neon-pink: #ff00ff;
+    --neon-green: #39ff14;
+    --neon-blue: #1f51ff;
+    --neon-orange: #ff6700;
+    --neon-purple: #9d00ff;
+    --neon-cyan: #00ffff;
+
+    /* Dark Mode */
+    --dark-charcoal: #222222;
+    --deep-black: #121212;
+    --midnight-blue: #191970;
+    --shadow-gray: #333333;
+    --stormy-blue: #506680;
+
+    /* Pastel Colors */
+    --soft-blue: #b3cde0;
+    --soft-green: #c1e1c5;
+    --soft-pink: #fbcce7;
+    --soft-purple: #d1c4e9;
+    --soft-orange: #ffdab9;
+
+    /* Vintage Colors */
+    --vintage-red: #b22222;
+    --vintage-brown: #8b4513;
+    --vintage-yellow: #ffbf00;
+    --vintage-green: #556b2f;
+    --vintage-blue: #4682b4;
+
+    /* Metallic Colors */
+    --gold-metallic: #d4af37;
+    --rose-gold: #b76e79;
+    --silver: #c0c0c0;
+    --platinum: #e5e4e2;
+    --bronze: #cd7f32;
+    
+    --primary: #4a90e2;
+    --secondary: #5c677d;
+    --success: #20a169;
+    --info: #17b8d3;
+    --warning: #ffb400;
+    --danger: #e02b3a;
+   /* --light: #f4f5f7;
+    --dark: #2b2f38; */
+    --dark: #1e1e1e; 
+    --light: #e0e0e0
+}
+
+/* text */
+.text-primary, .primary { color: var(--primary); }
+.text-secondary, .secondary { color: var(--secondary); }
+.text-success, .success { color: var(--success); }
+.text-info, .info { color: var(--info); }
+.text-warning, .warning { color: var(--warning); }
+.text-danger, .danger { color: var(--danger); }
+.text-light, .light { color: var(--light); }
+.text-dark, .dark { color: var(--dark); }
+
+.text-lime {
+    color: var(--lime);
+}
+.text-green {
+    color: var(--green);
+}
+.text-emerald {
+    color: var(--emerald);
+}
+.text-teal {
+    color: var(--teal);
+}
+.text-blue {
+    color: var(--blue);
+}
+.text-white, .white {
+    color: var(--white);
+}
+.text-black {
+    color: var(--black);
+}
+.text-cobalt {
+    color: var(--cobalt);
+}
+.text-violet {
+    color: var(--violet);
+}
+.text-pink {
+    color: var(--pink);
+}
+.text-crimson {
+    color: var(--crimson);
+}
+.text-red {
+    color: var(--red);
+}
+.text-orange {
+    color: var(--orange);
+}
+.text-amber {
+    color: var(--amber);
+}
+.text-yellow {
+    color: var(--yellow);
+}
+.text-brown {
+    color: var(--brown);
+}
+.text-olive {
+    color: var(--olive);
+}
+.text-steel {
+    color: var(--steel);
+}
+.text-mauve {
+    color: var(--mauve);
+}
+.text-taupe {
+    color: var(--taupe);
+}
+.text-sienna {
+    color: var(--sienna);
+}
+.text-magenta {
+    color: var(--magenta);
+}
+.text-gray {
+    color: var(--bs-gray);
+}
+.text-cyan {
+    color: var(--bs-cyan);
+}
+.text-light {
+    color: var(--bs-light);
+}
+.text-dark {
+    color: var(--bs-dark);
+}
+.text-primary {
+    color: var(--sb-primary);
+}
+.text-success {
+    color: var(--sb-success);
+}
+.text-info {
+    color: var(--sb-info);
+}
+.text-warning {
+    color: var(--sb-warning);
+}
+.text-danger {
+    color: var(--sb-danger);
+}
+.text-secondary {
+    color: var(--sb-secondary);
+}
+.text-darkblue {
+    color: var(--darkblue);
+}
+.text-marigold {
+    color: var(--marigold);
+}
+.text-cerulean {
+    color: var(--cerulean);
+}
+.text-rust {
+    color: var(--rust);
+}
+.text-illuminating {
+    color: var(--illuminating);
+}
+.text-french-blue {
+    color: var(--french-blue);
+}
+.text-green-ash {
+    color: var(--green-ash);
+}
+.text-burnt-coral {
+    color: var(--burnt-coral);
+}
+.text-mint {
+    color: var(--mint);
+}
+.text-amethyst-orchid {
+    color: var(--amethyst-orchid);
+}
+.text-raspberry-sorbet {
+    color: var(--raspberry-sorbet);
+}
+.text-inkwell {
+    color: var(--inkwell);
+}
+.text-ultimate-gray {
+    color: var(--ultimate-gray);
+}
+.text-buttercream {
+    color: var(--buttercream);
+}
+.text-desert-mist {
+    color: var(--desert-mist);
+}
+.text-willow {
+    color: var(--willow);
+}
+.text-t-black {
+    color: var(--t-black);
+}
+.text-t-red {
+    color: var(--t-red);
+}
+.text-t-white {
+    color: var(--t-white);
+}
+.text-t-turquoise {
+    color: var(--t-turquoise);
+}
+.text-google-blue {
+    color: var(--google-blue);
+}
+.text-google-green {
+    color: var(--google-green);
+}
+.text-google-yellow {
+    color: var(--google-yellow);
+}
+.text-google-red {
+    color: var(--google-red);
+}
+.text-micro-red {
+    color: var(--micro-red);
+}
+.text-micro-green {
+    color: var(--micro-green);
+}
+.text-micro-blue {
+    color: var(--micro-blue);
+}
+.text-micro-yellow {
+    color: var(--micro-yellow);
+}
+.text-ig-purple {
+    color: var(--ig-purple);
+}
+.text-ig-orange {
+    color: var(--ig-orange);
+}
+.text-canva-gray {
+    color: var(--canva-gray);
+}
+.text-canva-gray-2 {
+    color: var(--canva-gray-2);
+}
+.text-canva-pink {
+    color: var(--canva-pink);
+}
+.text-canva-brown {
+    color: var(--canva-brown);
+}
+.text-canva-cyan {
+    color: var(--canva-cyan);
+}
+.text-canva-magenta {
+    color: var(--canva-magenta);
+}
+.text-canva-dark {
+    color: var(--canva-dark);
+}
+.text-canva-dark-2 {
+    color: var(--canva-dark-2);
+}
+
+
+/* background */
+.bg-primary { background-color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
+.bg-success { background-color: var(--success); }
+.bg-info { background-color: var(--info); }
+.bg-warning { background-color: var(--warning); }
+.bg-danger { background-color: var(--danger); }
+.bg-light { background-color: var(--light); }
+.bg-dark { background-color: var(--dark); }
+/* Windows 8 UI Colors */
+.bg-lime {
+    background-color: var(--lime);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-emerald {
+    background-color: var(--emerald);
+}
+
+.bg-teal {
+    background-color: var(--teal);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-cobalt {
+    background-color: var(--cobalt);
+}
+
+.bg-violet {
+    background-color: var(--violet);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-crimson {
+    background-color: var(--crimson);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-amber {
+    background-color: var(--amber);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-brown {
+    background-color: var(--brown);
+}
+
+.bg-olive {
+    background-color: var(--olive);
+}
+
+.bg-steel {
+    background-color: var(--steel);
+}
+
+.bg-mauve {
+    background-color: var(--mauve);
+}
+
+.bg-taupe {
+    background-color: var(--taupe);
+}
+
+.bg-sienna {
+    background-color: var(--sienna);
+}
+
+.bg-magenta {
+    background-color: var(--magenta);
+}
+
+/* Bootstrap Colors */ .bg-bs-blue {
+    background-color: var(--bs-blue);
+}
+
+.bg-bs-indigo {
+    background-color: var(--bs-indigo);
+}
+
+.bg-bs-purple {
+    background-color: var(--bs-purple);
+}
+
+.bg-bs-pink {
+    background-color: var(--bs-pink);
+}
+
+.bg-bs-red {
+    background-color: var(--bs-red);
+}
+
+.bg-bs-orange {
+    background-color: var(--bs-orange);
+}
+
+.bg-bs-yellow {
+    background-color: var(--bs-yellow);
+}
+
+.bg-bs-green {
+    background-color: var(--bs-green);
+}
+
+.bg-bs-teal {
+    background-color: var(--bs-teal);
+}
+
+.bg-bs-gray {
+    background-color: var(--bs-gray);
+}
+
+.bg-bs-cyan {
+    background-color: var(--bs-cyan);
+}
+
+.bg-bs-light {
+    background-color: var(--bs-light);
+}
+
+.bg-bs-dark {
+    background-color: var(--bs-dark);
+}
+
+/* Star Bootstrap Colors */ .bg-sb-primary {
+    background-color: var(--sb-primary);
+}
+
+.bg-sb-success {
+    background-color: var(--sb-success);
+}
+
+.bg-sb-info {
+    background-color: var(--sb-info);
+}
+
+.bg-sb-warning {
+    background-color: var(--sb-warning);
+}
+
+.bg-sb-danger {
+    background-color: var(--sb-danger);
+}
+
+.bg-sb-secondary {
+    background-color: var(--sb-secondary);
+}
+
+.bg-sb-light {
+    background-color: var(--sb-light);
+}
+
+.bg-sb-dark {
+    background-color: var(--sb-dark);
+}
+
+/* FrameCSS Colors */ .bg-f-dark {
+    background-color: var(--f-dark);
+}
+
+.bg-f-gray {
+    background-color: var(--f-gray);
+}
+
+.bg-f-light-gray {
+    background-color: var(--f-light-gray);
+}
+
+.bg-f-red {
+    background-color: var(--f-red);
+}
+
+.bg-f-orange {
+    background-color: var(--f-orange);
+}
+
+.bg-f-yellow {
+    background-color: var(--f-yellow);
+}
+
+.bg-f-green {
+    background-color: var(--f-green);
+}
+
+.bg-f-blue {
+    background-color: var(--f-blue);
+}
+
+.bg-f-cyan {
+    background-color: var(--f-cyan);
+}
+
+.bg-f-purple {
+    background-color: var(--f-purple);
+}
+
+.bg-f-magenta {
+    background-color: var(--f-magenta);
+}
+
+/* Advanced Colors */ .bg-darkblue {
+    background-color: var(--darkblue);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.bg-marigold {
+    background-color: var(--marigold);
+}
+
+.bg-cerulean {
+    background-color: var(--cerulean);
+}
+
+.bg-rust {
+    background-color: var(--rust);
+}
+
+.bg-illuminating {
+    background-color: var(--illuminating);
+}
+
+.bg-french-blue {
+    background-color: var(--french-blue);
+}
+
+.bg-green-ash {
+    background-color: var(--green-ash);
+}
+
+.bg-burnt-coral {
+    background-color: var(--burnt-coral);
+}
+
+.bg-mint {
+    background-color: var(--mint);
+}
+
+.bg-amethyst-orchid {
+    background-color: var(--amethyst-orchid);
+}
+
+.bg-raspberry-sorbet {
+    background-color: var(--raspberry-sorbet);
+}
+
+.bg-inkwell {
+    background-color: var(--inkwell);
+}
+
+.bg-ultimate-gray {
+    background-color: var(--ultimate-gray);
+}
+
+.bg-buttercream {
+    background-color: var(--buttercream);
+}
+
+.bg-desert-mist {
+    background-color: var(--desert-mist);
+}
+
+.bg-willow {
+    background-color: var(--willow);
+}
+
+/* TikTok Colors */ .bg-t-black {
+    background-color: var(--t-black);
+}
+
+.bg-t-red {
+    background-color: var(--t-red);
+}
+
+.bg-t-white {
+    background-color: var(--t-white);
+}
+
+.bg-t-turquoise {
+    background-color: var(--t-turquoise);
+}
+
+/* Google, Microsoft, Instagram, Canva */ .bg-google-blue {
+    background-color: var(--google-blue);
+}
+
+.bg-google-green {
+    background-color: var(--google-green);
+}
+
+.bg-google-yellow {
+    background-color: var(--google-yellow);
+}
+
+.bg-google-red {
+    background-color: var(--google-red);
+}
+
+.bg-micro-red {
+    background-color: var(--micro-red);
+}
+
+.bg-micro-green {
+    background-color: var(--micro-green);
+}
+
+.bg-micro-blue {
+    background-color: var(--micro-blue);
+}
+
+.bg-micro-yellow {
+    background-color: var(--micro-yellow);
+}
+
+.bg-ig-purple {
+    background-color: var(--ig-purple);
+}
+
+.bg-ig-orange {
+    background-color: var(--ig-orange);
+}
+
+.bg-canva-gray {
+    background-color: var(--canva-gray);
+}
+
+.bg-canva-gray-2 {
+    background-color: var(--canva-gray-2);
+}
+
+.bg-canva-pink {
+    background-color: var(--canva-pink);
+}
+
+.bg-canva-brown {
+    background-color: var(--canva-brown);
+}
+
+.bg-canva-cyan {
+    background-color: var(--canva-cyan);
+}
+
+.bg-canva-magenta {
+    background-color: var(--canva-magenta);
+}
+
+.bg-canva-dark {
+    background-color: var(--canva-dark);
+}
+
+.bg-canva-dark-2 {
+    background-color: var(--canva-dark-2);
+}
