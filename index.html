@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModeFlex Framework</title>
+    <link rel="stylesheet" href="modeflex.css">
+    <style type="text/css" media="all">
+        .header {
+            background: #007bff;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #fitur {
+            background: #f9f9f9;
+            padding: 40px 20px;
+        }
+
+        .section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .btn-primary:hover {
+            background: #e64a19;
+        }
+
+        /* Responsif */
+@media (max-width: 768px) {
+            .header {
+                padding: 40px 10px;
+            }
+            #fitur {
+                padding: 20px 10px;
+            }
+            .feature-box {
+                padding: 15px;
+            }
+            .col-md-4 {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Selamat datang di ModeFlex</h1>
+            <p>
+                Framework CSS ringan, fleksibel, dan modular untuk desain responsif modern.
+            </p>
+            <a href="" class="button btn-warning">Unduh Sekarang</a>
+        </div>
+    </header>
+    <section id="fitur" class="section">
+        <div class="container">
+            <h2>Fitur Utama</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="feature-box">
+                        <h3>Grid Responsif</h3>
+                        <p>
+                            MenggunakanMenggunakan sistem grid berbasis Flexbox untuk tata letak yang responsif dan dinamis.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="feature-box">
+                        <h3>Ringan & Cepat</h3>
+                        <p>
+                            Ukuran kecil dan optimal untuk performa maksimal.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="feature-box">
+                        <h3>Variabel CSS</h3>
+                        <p>
+                            Mendukung variabel CSS untuk penyesuaian warna dan tema yang lebih fleksibel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                &copy; 2025 ModeFlex Framework. Dibuat oleh Nelsen Niko.
+            </p>
+        </div>
+    </footer>
+</body>
+</html
