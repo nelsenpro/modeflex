@@ -13,8 +13,13 @@
    Sites           : https://nelsenpro.github.io/modeflex
    GitHub          : https://github.com/nelsenpro/modeflex
    ================================ */
+@charset "UTF-8";
 @import url('colors.css');
-
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
 
 /* 🎨 Root Variables */
 :root {
